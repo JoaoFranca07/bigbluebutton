@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 
 import { styles } from './styles';
+import image from '../assets/Point.jpg';
 
 const propTypes = {
   children: PropTypes.node.isRequired,
@@ -13,7 +14,8 @@ const propTypes = {
   listenOnly: PropTypes.bool,
   voice: PropTypes.bool,
   noVoice: PropTypes.bool,
-  color: PropTypes.string,
+  //color: PropTypes.string,
+  color: '#F00',
   className: PropTypes.string,
 };
 
@@ -66,7 +68,8 @@ const UserAvatar = ({
 
 
     <div className={styles.content}>
-      {children}
+      {/*children*/}
+      <img src={image} alt="image"/>
     </div>
   </div>
 );

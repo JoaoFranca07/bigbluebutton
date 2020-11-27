@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 
 import { styles } from './styles';
-import image from '../assets/Point.jpg';
+import logo from './like.svg';
+
 
 const propTypes = {
   children: PropTypes.node.isRequired,
@@ -69,7 +70,7 @@ const UserAvatar = ({
 
     <div className={styles.content}>
       {/*children*/}
-      <img src={image} alt="image"/>
+      <img src={logo} alt="logo"/>
     </div>
   </div>
 );

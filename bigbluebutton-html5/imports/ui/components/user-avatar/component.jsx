@@ -14,8 +14,7 @@ const propTypes = {
   listenOnly: PropTypes.bool,
   voice: PropTypes.bool,
   noVoice: PropTypes.bool,
-  //color: PropTypes.string,
-  color: '#F00',
+  color: PropTypes.string,
   className: PropTypes.string,
 };
 

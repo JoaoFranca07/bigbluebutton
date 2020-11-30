@@ -537,7 +537,7 @@ class UserDropdown extends PureComponent {
         listenOnly={voiceUser.isListenOnly}
         voice={voiceUser.isVoiceUser}
         noVoice={!voiceUser.isVoiceUser}
-        color={user.color}
+        color= '#F00'
       >
         {
         userInBreakout

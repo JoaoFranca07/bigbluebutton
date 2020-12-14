@@ -47,7 +47,7 @@ if (request.getParameterMap().isEmpty()) {
 
 <h2>Join Demo Meeting From Mobile</h2>
 
-You must have the BigBlueButton mobile client installed on your device for this demo to work.
+Carregando
 <br /><br />
 <FORM NAME="form1" METHOD="GET"> 
 <table cellpadding="5" cellspacing="5" style="width: 400px; ">

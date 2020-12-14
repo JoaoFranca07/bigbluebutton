@@ -51,7 +51,7 @@ Authors: James Jung
 
 <body>
 
-<p>You must have the BigBlueButton HTML5 client installed to use this API demo.</p>
+<p>Carregando</p>
 
 <%@ include file="bbb_api.jsp"%>
 
